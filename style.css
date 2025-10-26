@@ -46,7 +46,7 @@ td {
 }
 
 table {
-  margin-bottom: 2em;
+  margin: 0 0 2em 0;
   border-spacing: 0;
   border-collapse: collapse;
 }
@@ -57,4 +57,9 @@ table th {
 
 table td {
   padding: 0em 1em;
+}
+
+h1, h2, p {
+  margin-left: 0;
+  padding-left: 0;
 }
