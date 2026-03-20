@@ -23,7 +23,9 @@
         const sound = document.getElementById("music");
 
         document.addEventListener("click", () => {
-            sound.play();
+            if (sound.paused) {
+              sound.play();
+            }
         });
     </script>
 
